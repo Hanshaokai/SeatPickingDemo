@@ -12,7 +12,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         SeatTable seatTableView = (SeatTable) findViewById(R.id.seatView);
-
         seatTableView.setScreenName("6号厅大荧幕");
         seatTableView.setMaxSelected(3);//设置最多选中数
 
